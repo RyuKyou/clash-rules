@@ -2,12 +2,13 @@ name: Sync rule providers
 
 on:
   schedule:
-    - cron: "0 16 * * *"   # daily ~00:00 CST
+    - cron: "0 16 * * *"
   workflow_dispatch:
   push:
     paths:
       - "sources.txt"
       - "scripts/sync_rules.py"
+      - "scripts/build_nsfw_porndude.py"
 
 jobs:
   sync:
@@ -28,6 +29,9 @@ jobs:
 
       - name: Sync rules from upstream
         run: python scripts/sync_rules.py
+
+      - name: Build NSFW from Porndude site list
+        run: python scripts/build_nsfw_porndude.py
 
       - name: Commit and push
         run: |
