@@ -9,6 +9,7 @@ on:
       - "sources.txt"
       - "scripts/sync_rules.py"
       - "scripts/build_nsfw_porndude.py"
+      - "scripts/build_kyous_full.py"
 
 jobs:
   sync:
@@ -30,23 +31,26 @@ jobs:
       - name: Sync rules from upstream
         run: python scripts/sync_rules.py
 
-      - name: Build NSFW from Porndude site list
+      - name: Build media_sites list
         run: python scripts/build_nsfw_porndude.py
+
+      - name: Build Kyous_full embedded config
+        run: python scripts/build_kyous_full.py
 
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add rules/ INDEX.txt sync_meta.txt
+          git add rules/ INDEX.txt sync_meta.txt release/
           if git diff --staged --quiet; then
             echo "No changes"
             exit 0
           fi
-          git commit -m "Sync rules $(date -u +%Y-%m-%dT%H:%MZ)"
+          git commit -m "Sync rules + Kyous_full $(date -u +%Y-%m-%dT%H:%MZ)"
           git fetch origin main
           git pull --rebase origin main || {
-            git checkout --theirs -- rules INDEX.txt sync_meta.txt 2>/dev/null || true
-            git add rules INDEX.txt sync_meta.txt
+            git checkout --theirs -- rules INDEX.txt sync_meta.txt release 2>/dev/null || true
+            git add rules INDEX.txt sync_meta.txt release
             GIT_EDITOR=true git rebase --continue || true
           }
           git push origin HEAD:main
