@@ -1,0 +1,46 @@
+# format: local_filename|upstream_url|behavior(optional)
+# behavior: classical | domain | ipcidr  (default classical)
+# Lines starting with # are ignored.
+
+# --- Ads / privacy ---
+adblock.mrs|https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomo.mrs|domain
+private.yaml|https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt|domain
+
+# --- China / Apple / media ---
+China.yaml|https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China/China.yaml|classical
+Apple.yaml|https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple.yaml|classical
+ChinaMedia.yaml|https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMedia/ChinaMedia.yaml|classical
+Bilibili.yaml|https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BiliBili/BiliBili.yaml|classical
+
+# --- Big tech ---
+Google.yaml|https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google.yaml|classical
+GoogleDrive.yaml|https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GoogleDrive/GoogleDrive.yaml|classical
+Microsoft.yaml|https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml|classical
+OneDrive.yaml|https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OneDrive/OneDrive.yaml|classical
+Github.yaml|https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GitHub/GitHub.yaml|classical
+
+# --- Social / streaming ---
+Telegram.yaml|https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram.yaml|classical
+YouTube.yaml|https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml|classical
+Netflix.yaml|https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix.yaml|classical
+Bahamut.yaml|https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Bahamut/Bahamut.yaml|classical
+GlobalMedia.yaml|https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia.yaml|classical
+Twitter.yaml|https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script/rule/Clash/Twitter/Twitter.yaml|classical
+
+# --- Steam / game ---
+Steam.yaml|https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Steam/Steam.yaml|classical
+SteamCN.yaml|https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/SteamCN/SteamCN.yaml|classical
+
+# --- Misc ---
+Developer.yaml|https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Developer/Developer.yaml|classical
+Download.yaml|https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Download/Download.yaml|classical
+Lan.yaml|https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml|classical
+Lan_CN.yaml|https://cdn.jsdelivr.net/gh/tanmoumou252/NSFWruleset/Lan_CN.yaml|classical
+Firefox.yaml|https://cdn.jsdelivr.net/gh/tanmoumou252/firefoxruleset/Firefox.yaml|classical
+
+# --- AI ---
+GPT_AI.yaml|https://cdn.jsdelivr.net/gh/tanmoumou252/NSFWruleset/GPT_AI.yaml|classical
+category-ai.mrs|https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.mrs|domain
+
+# --- NSFW (optional; remove line if you do not want this mirrored) ---
+NSFW.yaml|https://cdn.jsdelivr.net/gh/tanmoumou252/NSFWruleset/NSFW.yaml|classical
