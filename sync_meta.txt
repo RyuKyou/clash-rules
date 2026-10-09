@@ -1,0 +1,34 @@
+updated=2026-10-09T03:22:33.422084+00:00
+ok=27
+fail=0
+
+# name	size	sha12	behavior	upstream
+adblock.mrs	2142069	3c4baf72518d	domain	https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomo.mrs
+private.yaml	3478	3a04b128200e	domain	https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt
+China.yaml	1062	51c5809d65d1	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China/China.yaml
+Apple.yaml	1239	9f81f8e6ee84	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple.yaml
+ChinaMedia.yaml	14170	a3d033573555	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMedia/ChinaMedia.yaml
+Bilibili.yaml	5084	fba635689995	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BiliBili/BiliBili.yaml
+Google.yaml	22654	dfb4bf0a0095	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google.yaml
+GoogleDrive.yaml	403	6f83ad7099bf	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GoogleDrive/GoogleDrive.yaml
+Microsoft.yaml	23208	a289a1d52394	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml
+OneDrive.yaml	816	6f5902a52d1a	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OneDrive/OneDrive.yaml
+Github.yaml	1250	a2641ce2f108	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GitHub/GitHub.yaml
+Telegram.yaml	1590	e78efc3f1806	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram.yaml
+YouTube.yaml	5935	2f84cc9d35c8	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml
+Netflix.yaml	1607	cfb49b76fabc	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix.yaml
+Bahamut.yaml	390	5194da93d0b6	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Bahamut/Bahamut.yaml
+GlobalMedia.yaml	27690	c284b0870abf	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia.yaml
+Twitter.yaml	1191	67c46c3988da	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script/rule/Clash/Twitter/Twitter.yaml
+Steam.yaml	2280	585e423c866b	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Steam/Steam.yaml
+SteamCN.yaml	739	9001a2924678	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/SteamCN/SteamCN.yaml
+Developer.yaml	2614	3763d2387fcc	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Developer/Developer.yaml
+Download.yaml	1196	69d90c133c2f	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Download/Download.yaml
+Lan.yaml	5165	8849caf69972	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml
+Lan_CN.yaml	24308	2942801856bc	classical	https://cdn.jsdelivr.net/gh/tanmoumou252/NSFWruleset/Lan_CN.yaml
+Firefox.yaml	1017	4a534e084342	classical	https://cdn.jsdelivr.net/gh/tanmoumou252/firefoxruleset/Firefox.yaml
+GPT_AI.yaml	4028	b92da474ed45	classical	https://cdn.jsdelivr.net/gh/tanmoumou252/NSFWruleset/GPT_AI.yaml
+category-ai.mrs	2031	b02e139ddc71	domain	https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.mrs
+NSFW.yaml	6508	17721743a8de	classical	https://cdn.jsdelivr.net/gh/tanmoumou252/NSFWruleset/NSFW.yaml
+
+# failures

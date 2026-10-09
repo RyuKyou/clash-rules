@@ -1,0 +1,36 @@
+# Ryukyou clash-rules mirror
+# updated: 2026-10-09T03:22:33.422084+00:00
+# success: 27  failed: 0
+
+# Local raw URL pattern:
+# https://raw.githubusercontent.com/RyuKyou/clash-rules/main/rules/<filename>
+# Mirror (CN-friendly):
+# https://cdn.jsdelivr.net/gh/RyuKyou/clash-rules@main/rules/<filename>
+
+OK	domain	rules/adblock.mrs	<-	https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomo.mrs
+OK	domain	rules/private.yaml	<-	https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt
+OK	classical	rules/China.yaml	<-	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China/China.yaml
+OK	classical	rules/Apple.yaml	<-	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple.yaml
+OK	classical	rules/ChinaMedia.yaml	<-	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMedia/ChinaMedia.yaml
+OK	classical	rules/Bilibili.yaml	<-	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BiliBili/BiliBili.yaml
+OK	classical	rules/Google.yaml	<-	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Google/Google.yaml
+OK	classical	rules/GoogleDrive.yaml	<-	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GoogleDrive/GoogleDrive.yaml
+OK	classical	rules/Microsoft.yaml	<-	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Microsoft/Microsoft.yaml
+OK	classical	rules/OneDrive.yaml	<-	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/OneDrive/OneDrive.yaml
+OK	classical	rules/Github.yaml	<-	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GitHub/GitHub.yaml
+OK	classical	rules/Telegram.yaml	<-	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Telegram/Telegram.yaml
+OK	classical	rules/YouTube.yaml	<-	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml
+OK	classical	rules/Netflix.yaml	<-	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Netflix/Netflix.yaml
+OK	classical	rules/Bahamut.yaml	<-	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Bahamut/Bahamut.yaml
+OK	classical	rules/GlobalMedia.yaml	<-	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/GlobalMedia/GlobalMedia.yaml
+OK	classical	rules/Twitter.yaml	<-	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script/rule/Clash/Twitter/Twitter.yaml
+OK	classical	rules/Steam.yaml	<-	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Steam/Steam.yaml
+OK	classical	rules/SteamCN.yaml	<-	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/SteamCN/SteamCN.yaml
+OK	classical	rules/Developer.yaml	<-	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Developer/Developer.yaml
+OK	classical	rules/Download.yaml	<-	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Download/Download.yaml
+OK	classical	rules/Lan.yaml	<-	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Lan/Lan.yaml
+OK	classical	rules/Lan_CN.yaml	<-	https://cdn.jsdelivr.net/gh/tanmoumou252/NSFWruleset/Lan_CN.yaml
+OK	classical	rules/Firefox.yaml	<-	https://cdn.jsdelivr.net/gh/tanmoumou252/firefoxruleset/Firefox.yaml
+OK	classical	rules/GPT_AI.yaml	<-	https://cdn.jsdelivr.net/gh/tanmoumou252/NSFWruleset/GPT_AI.yaml
+OK	domain	rules/category-ai.mrs	<-	https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.mrs
+OK	classical	rules/NSFW.yaml	<-	https://cdn.jsdelivr.net/gh/tanmoumou252/NSFWruleset/NSFW.yaml

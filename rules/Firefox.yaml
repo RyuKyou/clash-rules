@@ -1,0 +1,31 @@
+#update:2023-11-27 7:45:47
+payload:
+  - DOMAIN-KEYWORD,mozilla
+  - DOMAIN-KEYWORD,firefox
+  - DOMAIN-SUFFIX,mozilla.org  
+  - DOMAIN-SUFFIX,mozilla.com
+  - DOMAIN-SUFFIX,mozilla.net
+  - DOMAIN-SUFFIX,firefox.com
+  - DOMAIN-SUFFIX,incoming.telemetry.mozilla.org
+  - DOMAIN-SUFFIX,profile.accounts.firefox.com
+  - DOMAIN-SUFFIX,push.services.mozilla.com
+  - DOMAIN-SUFFIX,accounts.firefox.com
+  - DOMAIN-SUFFIX,sync.services.mozilla.com
+  - DOMAIN-SUFFIX,cdn.mozilla.net
+# getpocket
+  - DOMAIN-KEYWORD,getpocket
+  - DOMAIN-SUFFIX,getpocket.com
+  - DOMAIN-SUFFIX,assets.getpocket.com
+# 好像是getpocket广告存储之类的
+  - DOMAIN-SUFFIX,omappapi.com
+  - DOMAIN-SUFFIX,api.omappapi.com
+  - DOMAIN-SUFFIX,a.omappapi.com
+  - DOMAIN-SUFFIX,cookielaw.org
+  - DOMAIN-SUFFIX,cdn.cookielaw.org
+  - DOMAIN-SUFFIX,amazonaws.com
+  - DOMAIN-SUFFIX,s3.amazonaws.com
+#沉浸式翻译firefox插件
+  - DOMAIN-KEYWORD,immersivetranslate
+  - DOMAIN-SUFFIX,config.immersivetranslate.com
+  - DOMAIN-SUFFIX,immersivetranslate.com
+  
