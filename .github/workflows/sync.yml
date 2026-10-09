@@ -1,0 +1,48 @@
+name: Sync rule providers
+
+on:
+  schedule:
+    - cron: "0 16 * * *"   # daily ~00:00 CST
+  workflow_dispatch:
+  push:
+    paths:
+      - "sources.txt"
+      - "scripts/sync_rules.py"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Sync rules from upstream
+        run: python scripts/sync_rules.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add rules/ INDEX.txt sync_meta.txt
+          if git diff --staged --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "Sync rules $(date -u +%Y-%m-%dT%H:%MZ)"
+          git fetch origin main
+          git pull --rebase origin main || {
+            git checkout --theirs -- rules INDEX.txt sync_meta.txt 2>/dev/null || true
+            git add rules INDEX.txt sync_meta.txt
+            GIT_EDITOR=true git rebase --continue || true
+          }
+          git push origin HEAD:main
