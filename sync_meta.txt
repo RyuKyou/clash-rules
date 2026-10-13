@@ -1,9 +1,9 @@
-updated=2026-10-12T22:42:27.492735+00:00
+updated=2026-10-13T20:57:51.435228+00:00
 ok=27
 fail=0
 
 # name	size	sha12	behavior	upstream
-adblock.mrs	2212449	8138809d0b5a	domain	https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomo.mrs
+adblock.mrs	2219301	a52976090048	domain	https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomo.mrs
 private.yaml	3478	3a04b128200e	domain	https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt
 China.yaml	1062	51c5809d65d1	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China/China.yaml
 Apple.yaml	1239	9f81f8e6ee84	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple.yaml
