@@ -1,10 +1,10 @@
-updated=2026-10-17T18:07:18.037786+00:00
+updated=2026-10-18T18:25:47.118325+00:00
 ok=27
 fail=0
 
 # name	size	sha12	behavior	upstream
-adblock.mrs	2254746	81f87faf237e	domain	https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomo.mrs
-private.yaml	3478	3a04b128200e	domain	https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt
+adblock.mrs	2219455	81180b1d02ab	domain	https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockmihomo.mrs
+private.yaml	3543	49972ad55734	domain	https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt
 China.yaml	1062	51c5809d65d1	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/China/China.yaml
 Apple.yaml	1239	9f81f8e6ee84	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/Apple/Apple.yaml
 ChinaMedia.yaml	14170	a3d033573555	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/ChinaMedia/ChinaMedia.yaml
@@ -28,7 +28,7 @@ Lan.yaml	5165	8849caf69972	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/io
 Lan_CN.yaml	24308	2942801856bc	classical	https://cdn.jsdelivr.net/gh/tanmoumou252/NSFWruleset/Lan_CN.yaml
 Firefox.yaml	1017	4a534e084342	classical	https://cdn.jsdelivr.net/gh/tanmoumou252/firefoxruleset/Firefox.yaml
 GPT_AI.yaml	4028	b92da474ed45	classical	https://cdn.jsdelivr.net/gh/tanmoumou252/NSFWruleset/GPT_AI.yaml
-category-ai.mrs	2059	0061a27e834f	domain	https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.mrs
+category-ai.mrs	2071	258e799c782f	domain	https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.mrs
 NSFW.yaml	6508	17721743a8de	classical	https://cdn.jsdelivr.net/gh/tanmoumou252/NSFWruleset/NSFW.yaml
 
 # failures
