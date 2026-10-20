@@ -1,9 +1,9 @@
 # ============================================================
 # Ryukyou full config (rules embedded, no HTTP rule-providers)
-# yaml_version: Kyous-20261019
-# rules_version: clash-rules@20261019
-# generated_utc: 2026-10-19T20:51:38.012808+00:00
-# notes: docs/KYOS_NOTES_20261019.md
+# yaml_version: Kyous-20261020
+# rules_version: clash-rules@20261020
+# generated_utc: 2026-10-20T19:48:34.400113+00:00
+# notes: docs/KYOS_NOTES_20261020.md
 # ============================================================
 mixed-port: 7890
 allow-lan: true
@@ -320,6 +320,8 @@ rule-providers:
       - DOMAIN,asusrouter.com
       - DOMAIN,instant.arubanetworks.com
       - DOMAIN,local.adguard.org
+      - DOMAIN,localhost.weixin.qq.com
+      - DOMAIN,localhost.work.weixin.qq.com
       - DOMAIN,oasisauth.h3c.com
       - DOMAIN,router.asus.com
       - DOMAIN,setmeup.arubanetworks.com
@@ -6268,7 +6270,7 @@ rule-providers:
       - +.255.255.255.255.in-addr.arpa
       - +.8.b.d.0.1.0.0.2.ip6.arpa
       - +.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
-# stats: {'SteamCN': 17, 'Steam': 54, 'Download': 34, 'Lan': 140, 'Lan_CN': 766, 'China': 30, 'Apple': 33, 'ChinaMedia': 411, 'Bilibili': 129, 'Firefox': 25, 'Microsoft': 670, 'OneDrive': 18, 'GPT_AI': 112, 'Google': 701, 'GoogleDrive': 6, 'Github': 31, 'Developer': 70, 'Telegram': 46, 'YouTube': 183, 'Netflix': 38, 'Bahamut': 7, 'GlobalMedia': 953, 'Twitter': 33, 'media_sites': 1333}
+# stats: {'SteamCN': 17, 'Steam': 54, 'Download': 34, 'Lan': 142, 'Lan_CN': 766, 'China': 30, 'Apple': 33, 'ChinaMedia': 411, 'Bilibili': 129, 'Firefox': 25, 'Microsoft': 670, 'OneDrive': 18, 'GPT_AI': 112, 'Google': 701, 'GoogleDrive': 6, 'Github': 31, 'Developer': 70, 'Telegram': 46, 'YouTube': 183, 'Netflix': 38, 'Bahamut': 7, 'GlobalMedia': 953, 'Twitter': 33, 'media_sites': 1333}
 # skipped binary: adblock.mrs category-ai.mrs
 
 rules:
