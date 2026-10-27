@@ -1,5 +1,5 @@
 # Ryukyou clash-rules mirror
-# updated: 2026-10-26T20:52:15.451276+00:00
+# updated: 2026-10-27T20:24:03.789856+00:00
 # success: 27  failed: 0
 
 # Local raw URL pattern:
