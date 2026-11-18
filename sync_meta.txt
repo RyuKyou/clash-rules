@@ -1,4 +1,4 @@
-updated=2026-11-17T23:18:10.633511+00:00
+updated=2026-11-18T22:48:57.432088+00:00
 ok=27
 fail=0
 
@@ -28,7 +28,7 @@ Lan.yaml	5240	1f5e514d59e5	classical	https://cdn.jsdelivr.net/gh/blackmatrix7/io
 Lan_CN.yaml	24308	2942801856bc	classical	https://cdn.jsdelivr.net/gh/tanmoumou252/NSFWruleset/Lan_CN.yaml
 Firefox.yaml	1017	4a534e084342	classical	https://cdn.jsdelivr.net/gh/tanmoumou252/firefoxruleset/Firefox.yaml
 GPT_AI.yaml	4028	b92da474ed45	classical	https://cdn.jsdelivr.net/gh/tanmoumou252/NSFWruleset/GPT_AI.yaml
-category-ai.mrs	2360	252fc3e36adb	domain	https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.mrs
+category-ai.mrs	2379	e44f5065fbfb	domain	https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-!cn.mrs
 NSFW.yaml	6508	17721743a8de	classical	https://cdn.jsdelivr.net/gh/tanmoumou252/NSFWruleset/NSFW.yaml
 
 # failures
