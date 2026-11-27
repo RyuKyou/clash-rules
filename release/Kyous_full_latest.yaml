@@ -1,9 +1,9 @@
 # ============================================================
 # Ryukyou full config (rules embedded, no HTTP rule-providers)
-# yaml_version: Kyous-20261125
-# rules_version: clash-rules@20261125
-# generated_utc: 2026-11-25T23:57:48.666060+00:00
-# notes: docs/KYOS_NOTES_20261125.md
+# yaml_version: Kyous-20261127
+# rules_version: clash-rules@20261127
+# generated_utc: 2026-11-27T00:16:51.157662+00:00
+# notes: docs/KYOS_NOTES_20261127.md
 # ============================================================
 mixed-port: 7890
 allow-lan: true
